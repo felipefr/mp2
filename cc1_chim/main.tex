@@ -47,12 +47,15 @@
 		\item N'oubliez vos noms en toutes les feuilles, les unités, des flèches au-dessus des vecteurs, etc.
 		\item Norme produit vectoriel: |$\vec{a} \wedge \vec{b}| =  \|a\| \|b\| |\sin{\theta}(\vec{a}, \vec{b})|$.
 		\item Si $(\vec{u}_x, \vec{u}_y, \vec{u}_z)$ est dite une base orthonormé direct, on a: $\vec{u}_x \wedge \vec{u}_y = \vec{u}_z$, $\vec{u}_y \wedge \vec{u}_z = \vec{u}_x$, $\vec{u}_z \wedge \vec{u}_x = \vec{u}_y$.
+		\vspace{-0.5cm}
 		\begin{figure}[h!]
 			\centering
 			\includegraphics[width=0.3\linewidth]{regle_de_la_main_droite}
+			\caption{Régle de la main droite.}
 			\label{fig:regledelamaindroite}
 		\end{figure}
-		\vspace{-1cm}
+		\vspace{-0.5cm}
+		\item $(\vec{T},\vec{N},\vec{B})$, $(\vec{u}_r,\vec{u}_{\theta},\vec{u}_z)$ sont des bases orthonormés directs (dans cette l'ordre).
 %		\item Repère polaire:
 %		$ \begin{cases}
 %			\vec{u}_r &= \cos{\theta} \Vec{u}_x + \sin{\theta} \Vec{u}_y,\\ 
@@ -72,9 +75,8 @@
 	\subsection*{Q1 Application du produit vectoriel dans la force électromagnétique (4pts)}
 	La force électromagnétique appliqué à une particule $M$ de charge $q$, vitesse $\vec{v}$, dans un champs électrique $\vec{E}$ et champs magnétique $\vec{B}$ est donné par $\vec{f}_{EB} = q (\vec{E} + \vec{v} \wedge \vec{B})$. On pose $\vec{f}_E = q \vec{E}$, $\vec{f}_B =   q  (\vec{v} \wedge \vec{B})$, tel que $\vec{f}_{EB} = \vec{f}_E + \vec{f}_B$. On va considérer que $q$ est \textbf{négatif} et $\vec{E} = -E \vec{u}_x$, $\vec{B} = - B \vec{u}_z$, $\vec{v} = -v \vec{u}_y$, avec $E, B$ et $v$ nombres \textbf{positifs}.
 	\begin{enumerate}[a)]
-		\item L'ensemble des vecteurs du l'ennoncé sont affichés selon le plan $Oxy$ dans la Figure \ref{fig:planOxy}. Cette figure contient {\bf 1 (un)} erreur. Trouvez cette erreur et corrigez-le dans la Figure \ref{fig:planOxy}.  
-		\item Dessiner le même ensemble de vecteurs (y inclus la correction) selon le plan $Oxz$ dans la Figure \ref{fig:planOxz}.
-		\item Calculer le moment cinétique $\vec{L}_0$ de la particule par rapport a $O$ quand la particule se trouve dans la position générique $\vec{OM} = a\vec{u}_x + b\vec{u}_y + c\vec{u}_z$.
+		\item(1,5pts) L'ensemble des vecteurs du l'ennoncé sont affichés selon le plan $Oxy$ dans la Figure \ref{fig:planOxy}, qui contient {\bf 1 (un)} erreur. Trouvez cette erreur et corrigez-le dans la Figure \ref{fig:planOxy}.  
+		\item(2,5pts) Dessiner le même ensemble de vecteurs (y inclus la correction) selon le plan $Oxz$ dans la Figure \ref{fig:planOxz}.
 	\end{enumerate}
 	
 		\vspace{-0.5cm}
@@ -126,8 +128,8 @@
 	\vspace{-1cm}	
 	\FloatBarrier
 	
-	\subsection*{Q2 : Un esquimau tombé dans un trou (9pts)} 
-	Un enfant esquimau tombe dans un trou sur la neige quand il jouait avec ses amis aux alentours de l'extremité gauche du trou. Ce trou a le format d'une demi-sphère de rayon $R$ et de centre $O$. Il va glisser vers le fond du trou avec un frottement $\vec{f}$ (avec sa norme noté par $f$). La position de l'enfant, assimilé à un point matériel $M$ de masse $m$ est repérée par l’angle $\theta$ par rapport à $\vec{u}_x$ (augmentant un direction à $\vec{u}_y$). La norme de l'accéleration de la pesanteur est dénoté $g$, tel $\vec{g} = g\vec{u}_x$ point vers le bas. L'objectif de cet exercice est d'étudier le mouvement en repère de \textbf{Frénet}. 
+	\subsection*{Q2 : Un esquimau tombé dans un trou (8pts)} 
+	Un enfant esquimau tombe dans un trou sur la neige quand il jouait avec ses amis aux alentours de l'extremité gauche du trou. Ce trou a le format d'une demi-sphère de rayon $R$ et de centre $O$. Il va glisser vers le fond du trou avec un frottement $\vec{f}$ (avec sa norme noté par $f$). La position de l'enfant, assimilé à un point matériel $M$ de masse $m$ est repérée par l’angle $\theta$ par rapport à $\vec{u}_x$ (augmentant vers la direction de $\vec{u}_y$). La norme de l'accéleration de la pesanteur est dénoté $g$, tel $\vec{g} = g\vec{u}_x$ pointe vers le bas. L'objectif de cet exercice est d'étudier le mouvement en repère de \textbf{Frénet}. 
 	\begin{enumerate}[a)]
 		\item(1,5pt) Complétez la figure ci-dessous en plaçant $\vec{T}$ (\textbf{supposant $\dot{\theta}<0$}) et $\vec{N}$.
 		\begin{figure}[h!]
@@ -136,8 +138,18 @@
 		\end{figure}
 		\item(1,5pt) Donner les expressions de toutes les forces en repère de Frénet.
 		\item(2,0pt) Appliquer le principe fondamentale de la dynamique (PFD) en repère de Frénet.
-		\item(1,0pt) Déterminer $\theta(t=0)$ et $\dot{s}(t=0)$.
+		\item(1,0pt) Expliciter $\theta(t=0)$ et $\dot{s}(t=0)$.
 		\item(2,0pt) On va supposer que $f = \alpha R_N$ ($\alpha >0$ un coefficient donné). Pour l'instant initial, déterminer $R_N(t=0), f(t=0)$ et $\ddot{s}(t=0)$ en utilisant les deux équations différentielles trouvés dans le PFD.
+	\end{enumerate}
+
+	\subsection*{Q3 : Le modèle de Bohr (8pts)}	
+	Le modèle de Bohr représente l’atome d’hydrogène constitué par un proton ponctuel de charge $q$ et de masse $m_P$ autour duquel gravite, en orbite circulaire, un électron de charge $-q$ et de masse $m_e$. On note $O$ le centre de l’orbite (le proton), $M$ la position du électron, $R$ son rayon et $v$ la norme de la vitesse orbitale (tangentielle au cercle). On néglige toutes les forces, sauf la force de Coulomb de norme $F =  \dfrac{q^2}{4\pi\varepsilon_0 R^2}$ (obs1: le vecteur $\vec{F}$ sera défini en fonction du repère choisi, obs2: $\varepsilon_0$ est une constante).
+	\begin{enumerate}[a)]
+	\item (2 pts) Dessiner un schèma du problème avec les éléments décrits ci-dessus, y inclus le vecteur $\vec{F}$ agissant sur l'électron. Répresenter aussi les vecteurs de base repère (cylindrique ou de Frénet selon votre préférence).
+	\item (1,5pt) Ecrire les vecteurs $\vec{OM}$, $\vec{v}$ et $\vec{F}$ dans la base choisi.
+	\item (1,5pts) Montrer que $\vec{M}_0(\vec{F}) = \vec{0}$.
+	\item (1,5pts) Le moment cinétique $\vec{L}_0$ du électron sera-t-il conservé?  justifier votre réponse en utilisant le theorème du moment cinétique.
+	\item (1,5pt) Calculer $\vec{L}_0$.
 	\end{enumerate}
 
 \end{document}

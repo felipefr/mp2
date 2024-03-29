@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.8)  13 MAR 2024 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.23)  29 MAR 2024 03:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,19 +813,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <regle_de_la_main_droite.pdf, id=4, 115.5527pt x 125.53198pt>
 File: regle_de_la_main_droite.pdf Graphic file (type pdf)
 <use regle_de_la_main_droite.pdf>
-Package pdftex.def Info: regle_de_la_main_droite.pdf  used on input line 52.
+Package pdftex.def Info: regle_de_la_main_droite.pdf  used on input line 53.
 (pdftex.def)             Requested size: 83.85912pt x 91.10507pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 107.
+(Font)              <20.74> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 107.
+(Font)              <14.4> on input line 109.
 <trou.pdf, id=5, 214.192pt x 121.78467pt>
 File: trou.pdf Graphic file (type pdf)
 <use trou.pdf>
-Package pdftex.def Info: trou.pdf  used on input line 135.
+Package pdftex.def Info: trou.pdf  used on input line 137.
 (pdftex.def)             Requested size: 139.76378pt x 79.46754pt.
 
-Underfull \hbox (badness 4595) in paragraph at lines 132--137
+Underfull \hbox (badness 4595) in paragraph at lines 134--139
 []\T1/lmr/m/n/10 (1,5pt) Com-plétez la fig-ure ci-dessous en plaçant $[]$
  []
 
@@ -834,12 +834,12 @@ Underfull \hbox (badness 4595) in paragraph at lines 132--137
 
  <./regle_de_la_main_droite.pdf> <./trou.pdf>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 25069 strings out of 478287
- 643258 string characters out of 5849290
- 1056086 words of memory out of 5000000
- 42811 multiletter control sequences out of 15000+600000
+ 25069 strings out of 480171
+ 643258 string characters out of 5894489
+ 1056286 words of memory out of 5000000
+ 42567 multiletter control sequences out of 15000+600000
  533021 words of font info for 82 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 59 hyphenation exceptions out of 8191
  100i,10n,104p,722b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/
 fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
@@ -856,7 +856,7 @@ xmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
 12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (1 page, 250950 bytes).
+Output written on main.pdf (1 page, 255314 bytes).
 PDF statistics:
  217 PDF objects out of 1000 (max. 8388607)
  143 compressed objects within 2 object streams
