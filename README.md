@@ -1,3 +1,10 @@
+# Notes
+1) CC1 SPI : téléchargé
+2) CC1 Chimie : téléchargé
+3) CC2 SPI : téléchargé
+4) CC2 Chimie : téléchargé
+
+
 # mp2
 Enseignement Mécanique du Point 2
 
