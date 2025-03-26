@@ -1,6 +1,6 @@
 # Notes
-1) Notes finales CC1 + CC2 chimie : téléchargé
-2) Notes finales CC1 + CC2 SPI
+1) Notes CC1 Phys GP3 : téléchargé
+2) Notes CC1 Maths : pas encore téléchargés
    
 # mp2
 Enseignement Mécanique du Point 2
